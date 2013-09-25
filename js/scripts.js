@@ -5,17 +5,5 @@ $(document).on('pageinit', function() {
 	});
 
 
-	$('.pages').cycle({
-		fx : 'carousel',
-		sync : true,
-		pause : true,
-		slideResize : false,
-		timeout : 0,
-		slides : 'li',
-		swipe : true,
-		loader : "wait",
-		easing : "easeInQuart",
-		carouselVisible : 1,
-	});
 
 }); 
