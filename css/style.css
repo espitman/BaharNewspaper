@@ -1,0 +1,30 @@
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	direction: rtl;
+}
+.ui-loader {
+	display: none;
+}
+#header {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	border-bottom: solid 1px #CCC;	
+}
+#header h1 {
+	margin: 0;
+	line-height: 40px;
+	color: #3498db;
+}
+.pages {
+	margin: 35px auto 0 auto;
+	padding: 0;
+	width: 100%;
+}
